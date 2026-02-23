@@ -37,12 +37,12 @@ A Differentiator circuit produces an output voltage proportional to the rate of 
 ## Tabulation
 ```
 
-S.No 	         Input Signal	          Frequency	      Expected  Output	                                      Practical Observation
+S.No 	 Input Signal	            Frequency	   Expected  Output	                                    Practical Observation
 
-1	             Sine wave (2 Vpp)	    500 Hz	        Cosine wave (leads input by 90°), small amplitude	      Cosine waveform observed, slight attenuation
-2            	Sine wave (2 Vpp)	      1 kHz	          Cosine wave, higher amplitude than 500 Hz	              Increased amplitude, clear 90° lead
-3            	Square wave (2 Vpp)   	1 kHz	          Sharp positive and negative spikes                     	Narrow spikes observed at transitions
-4	            Triangular wave (2 Vpp)	1 kHz	          Square wave output	                                    Square waveform observed
+1	     Sine wave (2 Vpp)	      500 Hz	     Cosine wave (leads input by 90°), small amplitude.	  Cosine waveform observed, slight attenuation
+2      Sine wave (2 Vpp)	      1 kHz	       Cosine wave, higher amplitude than 500 Hz	          Increased amplitude, clear 90° lead
+3    	 Square wave (2 Vpp)    	1 kHz	       Sharp positive and negative spikes                   Narrow spikes observed at transitions
+4	     Triangular wave (2 Vpp)	1 kHz	       Square wave output	                                  Square waveform observed
 ```
 
 ## Waveforms
@@ -66,7 +66,8 @@ The circuit behaves as a differentiator.
 ## Viva Questions
 ```
 1.	What is a differentiator?
-A Differentiator is an op-amp circuit in which the output voltage is proportional to the rate of change of the input voltage (i.e., derivative of the input signal).
+A Differentiator is an op-amp circuit in which the output voltage is proportional
+to the rate of change of the input voltage (i.e., derivative of the input signal).
 It uses:
 Capacitor at the input
 Resistor in the feedback path
